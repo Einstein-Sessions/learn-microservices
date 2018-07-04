@@ -24,4 +24,17 @@ some kind of communication protocol.
 * The main idea behind `SOA` is, instead of using packet modules within each client application,
 I instead use a `Service` to provide functionality to my client applications and this allows
 me to have many client applications using the same functionality. Also in the future I can have
-new or different clients connected to the same service, reusing that functionality.
+new or different clients connected to the same service, reusing that same functionality.
+* In the future I can have newer or different types of clients connected to the same _service_
+reusing that functionality.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/29547780/42292847-7a439a98-7fcd-11e8-902e-5f5c3749f3a1.png">
+</p>
+
+* As an architecture, _SOA_ has been successful as it allows us to scale up our software when
+demand increases by enabling us to have a copy of service on multiple servers.
+* When traffic comes in, a `load balancer` will redirect that request to a specific instance
+of the service.
+* We can have multiple instances of that service. So when the demand increases, we just have
+to increase the number of instances of the service running across servers.
