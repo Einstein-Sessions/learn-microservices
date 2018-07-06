@@ -4,7 +4,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [gh-md-toc](#gh-md-toc)
+   * [What is a Service](#what-is-a-service)
 <!--te-->
 
 ## What is a Service?
