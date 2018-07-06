@@ -1,5 +1,12 @@
 # Microservices Architecture
 
+Table of contents
+=================
+
+<!--ts-->
+   * [gh-md-toc](#gh-md-toc)
+<!--te-->
+
 ## What is a Service?
 
 * A _service_ is a piece of software which provides functionality to other pieces of software
