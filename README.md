@@ -45,3 +45,14 @@ demand increases by enabling us to have a copy of service on multiple servers.
 of the service.
 * We can have multiple instances of that service. So when the demand increases, we just have
 to increase the number of instances of the service running across servers.
+* SOA provides reusability of functionality. So the function to create an order from a web 
+application would be the same functionality that would be called by a mobile application.
+So it's the same code creating an order for both the web application and the mobile
+application.
+* Another characteristic of SOA is the idea of having standardised _contracts/interfaces_. 
+When a client calls a service, it calls a service by calling a method. The signature of that 
+method normally does not change. So we can upgrade the implementation of that interface 
+without actually changing the interface which the clients actually call when making requests.
+* Another characteristic of a service is that they are stateless, so when a request comes in 
+from a website to our service, that instance of a service does not have to remember the previous 
+request from a client.
